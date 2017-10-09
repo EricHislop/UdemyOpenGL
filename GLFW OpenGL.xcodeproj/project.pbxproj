@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544CC77E1F8B2A6A0039A1F2 /* resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 544CC77C1F8B2A240039A1F2 /* resources */; };
 		54F400271F74814100A1F85C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54F400261F74814100A1F85C /* main.cpp */; };
 		54F4002F1F74818B00A1F85C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F4002E1F74818B00A1F85C /* OpenGL.framework */; };
 		54F400311F7481B800A1F85C /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F400301F7481B800A1F85C /* libGLEW.2.1.0.dylib */; };
@@ -14,6 +15,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		544CC77D1F8B2A600039A1F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				544CC77E1F8B2A6A0039A1F2 /* resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		54F400211F74814100A1F85C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -26,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5438D4911F82EB5E00DD72A9 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		544CC77C1F8B2A240039A1F2 /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
 		54F400231F74814100A1F85C /* GLFW OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GLFW OpenGL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F400261F74814100A1F85C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		54F4002E1F74818B00A1F85C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -67,7 +80,9 @@
 		54F400251F74814100A1F85C /* GLFW OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				544CC77C1F8B2A240039A1F2 /* resources */,
 				54F400261F74814100A1F85C /* main.cpp */,
+				5438D4911F82EB5E00DD72A9 /* Shader.h */,
 			);
 			path = "GLFW OpenGL";
 			sourceTree = "<group>";
@@ -92,6 +107,7 @@
 				54F4001F1F74814100A1F85C /* Sources */,
 				54F400201F74814100A1F85C /* Frameworks */,
 				54F400211F74814100A1F85C /* CopyFiles */,
+				544CC77D1F8B2A600039A1F2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -280,6 +296,7 @@
 				54F4002C1F74814100A1F85C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
